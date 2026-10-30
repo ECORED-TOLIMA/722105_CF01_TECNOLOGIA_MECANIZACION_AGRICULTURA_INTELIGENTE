@@ -458,12 +458,12 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Juan Daniel Polanco Muñoz',
+          nombre: 'Jose Yobani Penagos Mora',
           cargo: 'Diseñador de contenidos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Manuel Felipe Echavarria Orozco',
+          nombre: 'Veimar Celis Meléndez',
           cargo: 'Desarrollador <em>full stack</em>',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
@@ -478,12 +478,12 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'María Fernanda Pineda Mora',
+          nombre: 'Jorge Eduardo Rueda Peña',
           cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Javier Mauricio Oviedo',
+          nombre: 'Jorge Bustos Gómez ',
           cargo: 'Validador y vinculador de recursos educativos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
