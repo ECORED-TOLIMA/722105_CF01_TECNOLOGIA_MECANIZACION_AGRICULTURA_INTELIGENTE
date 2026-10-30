@@ -2,15 +2,31 @@
 .curso-main-container.introduccion
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-  
+
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span
           i.fas.fa-info
       h1 Introducción
-    
-    .row.justify-content-center.align-items-center           
-      .col-lg-12
+
+    p.mb-4 La planeación de los servicios agrícolas mecanizados requiere comprender las características de la empresa, el sistema de producción agropecuario y los recursos necesarios para desarrollar las labores de manera oportuna y eficiente. Factores como la disponibilidad de maquinaria, los insumos, el talento humano y los recursos financieros influyen en la organización de las actividades y en el cumplimiento de los objetivos productivos.
+
+    .row.align-items-stretch.mb-4
+      .col-lg-8.mb-4.mb-lg-0
+        .cajon.color-secundario.p-4.mb-4
+          p.mb-0 En este contexto, la gestión de inventarios y la elaboración de presupuestos permiten prever necesidades, controlar existencias y estimar los costos asociados a la operación. Asimismo, la aplicación de medidas de seguridad y salud en el trabajo, junto con la identificación de los aspectos e impactos ambientales, contribuye a prevenir riesgos y promover prácticas responsables durante la mecanización.
+        p.mb-4 A lo largo de este componente formativo se abordarán los fundamentos empresariales y productivos, las técnicas de planeación de recursos, los inventarios, los presupuestos y los criterios de seguridad y gestión ambiental. Estos conocimientos permitirán establecer bases para proyectar los recursos requeridos, de acuerdo con las condiciones de producción, los requerimientos técnicos y la normativa aplicable.
+        p.mb-0 Para complementar la comprensión de los temas abordados, se recomienda acceder al siguiente video.
+      .col-lg-4
+        .tarjeta.color-primario.p-3.h-100
+          figure.h-100.mb-0
+            img.introduccion__imagen(
+              src="@/assets/curso/temas/intro/img1.png"
+              alt=""
+            )
+
+    .row.justify-content-center.align-items-center
+      .col-12
         figure
           .video
             iframe(width="560" height="315" src="https://www.youtube.com/embed/vdPrCjWJSHo?si=X4NxENRo3LLXAua_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
@@ -26,4 +42,17 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+.introduccion
+  &__imagen
+    width: 100%
+    height: 100%
+    min-height: 20rem
+    object-fit: cover
+    border-radius: 0.75rem
+
+@media (max-width: 991px)
+  .introduccion
+    &__imagen
+      min-height: 14rem
+</style>
