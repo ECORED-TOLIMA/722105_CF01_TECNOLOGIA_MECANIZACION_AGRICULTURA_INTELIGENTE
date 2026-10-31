@@ -65,7 +65,7 @@ figcaption
     color: $black !important
 
 .cajon.color-primario
-  background-color: #E1F2FE
+  background-color: #EEFFDB
 .cajon.color-secundario
   background-color: #F8EDD3
 .BGF00
@@ -524,22 +524,173 @@ figcaption
     object-fit: cover
 
 // Tema 3
+.tema3-apertura
+  &__imagen
+    display: block
+    width: 100%
+    max-height: 18rem
+    object-fit: cover
+
+  &__destacado
+    background-color: #C2F6A0
+
+.tema3-seccion-imagen
+  display: block
+  width: 100%
+  height: 100%
+  object-fit: cover
+
+.tema3-subtitulo-pastilla
+  border-radius: 2rem
+  background-color: #FFC96D
+  text-align: center
+
+.tema3-linea-tiempo-imagen
+  display: block
+  width: 100%
+  max-height: 36rem
+  object-fit: contain
+
 .tema3-icono
   width: 84px
   max-width: 100%
   margin: 0 auto
 
+.tema3-tipo-presupuesto
+  &--operacion
+    background-color: #C2F6A0
+
+  &--inversion
+    background-color: #E9D2A3
+
+  &--caja
+    background-color: #FFC96D
+
+  &__icono
+    display: block
+    width: 100%
+    max-height: 8rem
+    margin: 0 auto
+
+.tema3-costos
+  &__propiedad
+    background-color: #F7EACC
+
+  &__imagen
+    display: block
+    width: 100%
+    height: 100%
+    object-fit: cover
+
+  &__icono
+    display: block
+    width: 84px
+    max-width: 100%
+
+  &__diferencia
+    background-color: #C2F6A0
+
+  &__ejemplo
+    border-top: .45rem solid #97E873
+    background-color: #E5FFD5
+
 .tema3-tabla
   thead
-    background-color: #CCFEED
+    background-color: #FFE8CE
 
   tbody tr:nth-child(odd)
-    background-color: #E8F9F4
+    background-color: #F6F6F6
 
   tbody tr:nth-child(even)
     background-color: $white
 
+  th,
+  td
+    vertical-align: middle
+
+  th:first-child,
+  td:first-child
+    text-align: center
+
   tbody 
+
+.tema3-tractor
+  background-color: #F8EDD3
+
+.tema3-slyder
+  padding: 2rem
+  background-color: #FFE8CE
+
+  .slyder-b__img
+    height: 22rem
+
+    img
+      width: 100%
+      height: 100%
+      object-fit: cover
+
+  h3
+    font-size: $h5-font-size
+
+.tema3-titulo-ejemplo
+  max-width: 100%
+
+.tema3-datos-tractor
+  &__imagen
+    background-color: #C2F6A0
+
+    img
+      display: block
+      width: 100%
+      max-height: 15rem
+
+  &__lista
+    background-color: #F8EDD3
+
+.tema3-lista-semilla
+  .fa-seedling
+    color: #FEB241
+
+.tema3-variacion-costo
+  background-color: #F8EDD3
+
+
+  &__titulo
+    background-color: #FEB241
+
+  &__lista
+    border-radius: .75rem
+    background-color: $white
+    box-shadow: 0 0.25rem 0.55rem rgba(0, 0, 0, 0.18);
+
+@media (max-width: $bp-max-sm)
+  .tema3-slyder
+    padding: 1.5rem
+
+    .slyder-b__img
+      height: auto
+
+.tema3-finalidad
+  background-color: #C2F6A0
+
+  &__imagen
+    display: block
+    width: 100%
+    height: 100%
+    object-fit: cover
+
+  &__icono
+    display: block
+    width: 80px
+    max-width: 100%
+
+.tema3-cierre-presupuesto
+  background-color: #C2F6A0
+
+  &__icono
+    display: block
+    width: 84px
+    max-width: 100%
 
 // Tema 4
 .tema4-apertura__imagen
@@ -618,12 +769,12 @@ figcaption
     height: auto
     padding: 8px 26px 8px 8px
   img
-    width: 60px
+    width: 45px
     height: auto
     margin-left: -8px
   span
     font-weight: 700
-    font-size: 20px
+    font-size: 16px
     color: $color-sistema-texto
     line-height: 1  
 
@@ -765,21 +916,20 @@ figcaption
   display: flex
 
 .linea-tiempo-d__item__content__title
-  background-color: #EFE6E4
+  background-color: #E8D5D5
 .linea-tiempo-d__item__content__slot
-  background-color: #E1F2FE
+  background-color: #F8EDD3
 .linea-tiempo-d__item--selected .linea-tiempo-d__item__content__title, .linea-tiempo-d__item__content__slot
-  background-color: #E1F2FE
+  background-color: #F8EDD3
 .tarjeta--gris, .tarjeta--azul
-  background-color: #EFE6E4
+  background-color: #e5efe4
 .linea-tiempo-d__item__number
-  background-color: #AF1414
+  background-color: #E8D5D5
+.linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
   color: #fff !important
 .linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
-  color: #000 !important
-.linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
   background-color: #FFEAEA
-  color: #12263F
+  color: #fff
 
 .acordion__activo
   background-color: #CCE0D4
