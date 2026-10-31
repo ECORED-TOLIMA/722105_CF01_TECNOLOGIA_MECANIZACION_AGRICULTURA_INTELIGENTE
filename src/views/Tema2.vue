@@ -9,9 +9,9 @@
 
     p.mb-4 Una máquina detenida por falta de un filtro, un operario que se queda sin combustible en medio del lote o una sembradora sin semillas son situaciones que pueden prevenirse mediante una adecuada planeación. Esta consiste en prever qué recursos se necesitan, en qué cantidades y en qué momento deben estar disponibles para cumplir con el programa de producción.
 
-    .row.align-items-stretch.mb-4
-      .col-lg-6.mb-4.mb-lg-0
-        figure.tema2-imagen-marco.h-100.mb-0
+    .row.align-items-center.justify-content-center.mb-4
+      .col-lg-6.col-8.mb-4.mb-lg-0
+        figure
           img(src="@/assets/curso/temas/t2/img1.png" alt="")
       .col-lg-6
         .cajon.color-secundario.p-4.mb-4
@@ -55,7 +55,7 @@
     .row.justify-content-center
       .col-lg-9
         .row.align-items-center
-          .col-md-auto.mb-3.mb-md-0
+          .col-md-auto.mb-3.mb-md-0.d-none.d-lg-block
             figure.mb-0
               img.tema2-icono(src="@/assets/curso/temas/t2/img2.svg" alt="")
           .col
@@ -293,7 +293,7 @@
           .p-4
             p.mb-4 La disponibilidad es la condición de un recurso para estar listo y ser utilizado en el momento requerido. En la mecanización agropecuaria, se distingue entre disponibilidad física, cuando la máquina o el recurso se encuentra en la empresa, y disponibilidad operativa, cuando, además de estar presente, reúne las condiciones necesarias para funcionar. En el caso de la maquinaria, esto implica contar con un equipo en buen estado, un operario disponible, combustible e implementos adecuados para realizar la labor.
             .row.align-items-center
-              .col-auto
+              .col-auto.d-none.d-lg-block
                 img.tema2-disponibilidad__icono(src="@/assets/curso/temas/t2/img6.svg" alt="")
               .col
                 p.mb-0 La disponibilidad también puede expresarse como el porcentaje de tiempo en que un equipo estuvo en condiciones de trabajar con respecto al tiempo programado para su operación.
@@ -310,7 +310,7 @@
         .col-lg-4.d-none.d-lg-block
           figure.mb-0
             img.tema2-disponibilidad-slider__imagen(src="@/assets/curso/temas/t2/img8.png" alt="")
-        .col-lg-8
+        .col-lg-8.p-4.p-lg-0
           SlyderF(columnas="col-md-6")
             .tarjeta.tema2-fondosly.p-4.h-100
               .row.justify-content-center.mb-3
@@ -380,19 +380,19 @@
     #t_2_4.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 2.4 Clases e importancia del inventario
 
-    .row.align-items-stretch.mb-4
-      .col-lg-7.mb-4.mb-lg-0
+    .row.align-items-center.justify-content-center.mb-4
+      .col-lg-7.mb-4.mb-lg-0.order-2.order-lg-1
         .cajon.color-secundario.p-4.mb-4
           p.mb-0 El inventario es el conjunto de materiales, insumos, repuestos, herramientas y productos que una empresa mantiene almacenados para utilizarlos en sus operaciones o comercializarlos. En una empresa de servicios de mecanización agrícola, los inventarios pueden incluir combustibles y lubricantes, filtros, correas, rodamientos, discos, cuchillas y otros repuestos necesarios para el mantenimiento y la operación de la maquinaria. También pueden incluir insumos utilizados durante la prestación del servicio y productos cosechados, cuando la empresa participa en su almacenamiento o comercialización.
         p.mb-0 Los inventarios se pueden clasificar según su función dentro de la operación. El inventario de ciclo cubre el consumo habitual durante el periodo entre pedidos; el de seguridad permite responder ante imprevistos o retrasos en el abastecimiento; el de anticipación se acumula para atender necesidades previstas en temporadas de alta demanda; el inventario en tránsito corresponde a los materiales o productos que se encuentran en proceso de transporte, y el inventario obsoleto está conformado por elementos que han perdido su utilidad operativa o comercial, por ejemplo, repuestos de modelos de maquinaria que ya no se utilizan.
-      .col-lg-5
-        figure.tema2-inventario-apertura__imagen.h-100.mb-0
+      .col-lg-5.col-8.mb-4.mb-lg-0.order-1.order-lg-2
+        figure
           img(src="@/assets/curso/temas/t2/img14.png" alt="")
 
     .row.justify-content-center.mb-4
       .col-lg-12
         .row.align-items-center
-          .col-md-auto.mb-3.mb-md-0
+          .col-md-auto.d-none.d-lg-block
             figure.mb-0
               img.tema2-icono(src="@/assets/curso/temas/t2/img15.svg" alt="")
           .col
@@ -520,7 +520,7 @@
             p.mb-0 Deben conservarse en sus envases identificados, en lugares apropiados y con acceso a las fichas de datos de seguridad correspondientes.
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-1.mb-3.mb-md-0
+      .col-lg-1.mb-3.mb-md-0.d-none.d-lg-block
         figure.mb-0
           img.tema2-icono(src="@/assets/curso/temas/t2/img23.svg" alt="")
       .col-lg-11.col-md
@@ -530,12 +530,12 @@
       .row.align-items-center
         .col
           p.mb-0 La #[strong rotación del inventario] indica cuántas veces se renuevan las existencias durante un periodo determinado. Se calcula dividiendo el consumo del periodo entre el inventario promedio. Una rotación baja puede indicar acumulación de existencias o materiales de poca demanda, mientras que una rotación elevada puede requerir una revisión de los niveles disponibles para prevenir faltantes.
-        .col-md-auto.mt-3.mt-md-0
+        .col-md-auto.mt-3.mt-md-0.d-none.d-lg-block
           figure.mb-0
             img.tema2-icono(src="@/assets/curso/temas/t2/img24.svg" alt="")
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-1.mb-3.mb-md-0
+      .col-lg-1.mb-3.mb-md-0.d-none.d-lg-block
         figure.mb-0
           img.tema2-icono(src="@/assets/curso/temas/t2/img25.svg" alt="")
       .col-lg-11.col-md
@@ -581,7 +581,7 @@
       p.mb-0 El resultado indica que el inventario promedio se renovó diez veces durante el año. Si el consumo se distribuyera uniformemente, cada ciclo equivaldría aproximadamente a 36,5 días.
 
     .row.justify-content-center.mb-4
-      .col-md-auto.mb-3.mb-md-0
+      .col-md-auto.mb-3.mb-md-0.d-none.d-lg-block
         figure.mb-0
           img.tema2-icono(src="@/assets/curso/temas/t2/img27.svg" alt="")
       .col-lg-9.col-md
@@ -600,7 +600,7 @@
             source(media="(min-width: 768px)" srcset="@/assets/curso/temas/t2/img28.svg")
             img.w-100(
               src="@/assets/curso/temas/t2/img27_1.svg"
-              alt="La figura 2 presenta la ruta de planeación de recursos e inventarios: definir labores, considerando el área, el cultivo y las fechas previstas para cada operación; calcular la demanda de horas-máquina, horas-hombre, insumos y repuestos; verificar la disponibilidad comparando los recursos requeridos con los disponibles; definir los niveles de inventario mediante el stock de seguridad y el punto de reorden; y asignar y controlar los recursos y su utilización."
+              alt="La figura 2 representa la secuencia de planeación de recursos e inventarios en los servicios agrícolas mecanizados, desde la identificación de las necesidades y la estimación de cantidades hasta el control de existencias y la verificación de su disponibilidad para las labores."
             )
 </template>
 

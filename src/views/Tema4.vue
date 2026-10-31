@@ -20,12 +20,12 @@
     #t_4_1.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 4.1 Marco normativo de la seguridad y salud en el trabajo
 
-    .row.align-items-stretch.mb-4
-      .col-lg-7.mb-4.mb-lg-0
+    .row.align-items-center.justify-content-center.mb-4
+      .col-lg-7.mb-4.mb-lg-0.order-2.order-lg-1
         .cajon.color-secundario.p-4.mb-4
           p.mb-0 En Colombia, la seguridad y salud en el trabajo (SST) se desarrolla mediante disposiciones orientadas a prevenir accidentes laborales, evitar enfermedades relacionadas con el trabajo y promover condiciones laborales seguras. Uno de sus principales instrumentos es el Sistema de Gestión de la Seguridad y Salud en el Trabajo (SG-SST), que permite identificar los peligros, evaluar y valorar los riesgos, establecer medidas de control y mejorar continuamente las condiciones de trabajo.
         p.mb-0 El #[strong Decreto 1072 de 2015], en el capítulo 6 del título 4 de la parte 2 del libro 2, establece las disposiciones para implementar el SG-SST. Este sistema se basa en el ciclo PHVA: planear, hacer, verificar y actuar. Su implementación corresponde al empleador o contratante, con la participación de los trabajadores y contratistas, según las responsabilidades que les competen.
-      .col-lg-5
+      .col-lg-5.col-8.mb-4.mb-lg-0.order-1.order-lg-2
         figure.h-100.mb-0
           img.tema4-normativa__imagen(src="@/assets/curso/temas/t4/img2.png" alt="")
 
@@ -163,7 +163,7 @@
     p.mb-4 Uno de los accidentes más graves durante la operación de tractores es el vuelco, que puede ocurrir al trabajar en pendientes, girar a una velocidad inadecuada, acercarse a bordes de canales o remolcar cargas de forma incorrecta. Para reducir sus consecuencias, es fundamental utilizar la estructura de protección contra vuelcos (ROPS) y mantener abrochado el cinturón de seguridad. También deben respetarse los límites de operación establecidos para el equipo y las condiciones del terreno.
 
     .row.align-items-stretch.mb-4
-      .col-md-auto.mb-3.mb-md-0
+      .col-md-auto.mb-3.mb-md-0.d-none.d-lg-block
         figure.mb-0
           img.tema4-icono(src="@/assets/curso/temas/t4/img12.svg" alt="")
       .col
@@ -223,11 +223,11 @@
 
     p.mb-4 Los elementos de protección personal (EPP) son dispositivos o prendas que utiliza el trabajador para reducir la exposición a peligros que pueden afectar su seguridad y salud durante las labores de mecanización agropecuaria. Su selección depende de los riesgos identificados, la actividad que se realizará y las partes del cuerpo que requieren protección.
 
-    .row.align-items-center.mb-4
-      .col-lg-5.mb-4.mb-lg-0
+    .row.align-items-center.justify-content-center.mb-4
+      .col-lg-5.col-8.mb-4.mb-lg-0
         figure.mb-0
           img(src="@/assets/curso/temas/t4/img13.png" alt="")
-      .col-lg-7
+      .col-lg-7.mb-4.mb-lg-0
         .cajon.color-secundario.p-4.mb-4
           p.mb-0 Los EPP forman parte de las medidas de control del riesgo, pero no sustituyen la eliminación del peligro, la instalación de protecciones en la maquinaria ni la aplicación de procedimientos de trabajo seguro. Por ello, deben utilizarse como complemento de las demás medidas preventivas.
         p.mb-0 La selección de estos elementos debe considerar las características de la labor, el ajuste al trabajador, su estado de conservación y las indicaciones del fabricante. Asimismo, es necesario verificar su condición antes de utilizarlos, mantenerlos adecuadamente y reemplazarlos cuando estén deteriorados o hayan perdido su capacidad de protección.
@@ -278,7 +278,7 @@
       .col
         .tema4-nota.p-2.px-4.h-100.d-flex.align-items-center
           p.mb-0 La selección de los EPP debe realizarse de acuerdo con la evaluación de riesgos de cada actividad. No todos los elementos sirven para cualquier tarea: por ejemplo, los guantes deben elegirse según el material manipulado, y los respiradores, según el contaminante y el nivel de exposición. Además, su uso requiere capacitación, inspección y mantenimiento para conservar su eficacia.
-      .col-md-auto.order-first.order-md-last.mb-3.mb-md-0
+      .col-md-auto.order-first.order-md-last.mb-3.mb-md-0.d-none.d-lg-block
         figure.mb-0
           img.tema4-icono(src="@/assets/curso/temas/t4/img14.svg" alt="")
 
@@ -289,7 +289,7 @@
       h2 4.4 Equipos y elementos de emergencia y sus métodos de empleo
 
     .row.align-items-stretch.mb-4
-      .col-md-auto.mb-3.mb-md-0
+      .col-md-auto.mb-3.mb-md-0.d-none.d-lg-block
         figure.mb-0
           img.tema4-icono(src="@/assets/curso/temas/t4/img15.svg" alt="")
       .col
@@ -306,7 +306,7 @@
     p.mb-4 A continuación, se presentan algunos equipos y elementos de emergencia, su finalidad y las precauciones básicas para utilizarlos:
 
     .tarjeta.BGF02.p-4.p-md-5.mb-4
-      LineaTiempoC.color-acento-contenido(text-small)
+      LineaTiempoC.color-acento-botones
         .row.align-items-center(titulo="a.")
           .col-md-6.mb-4.mb-md-0
             figure
@@ -368,38 +368,38 @@
       .col-lg-10
         PasosA.color-primario.mb-4(tipo="n")
           .row.align-items-center
-            .col-md-9.mb-4.mb-md-0
+            .col-lg-9.mb-4.mb-md-0
               h5 Eliminación
               p.mb-0 Consiste en retirar el peligro para evitar la exposición. Por ejemplo, no realizar una labor mecanizada en una pendiente que supere los límites seguros establecidos para el equipo.
-            .col-md-3
+            .col-lg-3.d-none.d-lg-block
               figure
                 img.tema4-paso__icono(src="@/assets/curso/temas/t4/img23.svg" alt="")
           .row.align-items-center
-            .col-md-3.mb-4.mb-md-0
+            .col-lg-3.mb-4.mb-md-0.d-none.d-lg-block
               figure
                 img.tema4-paso__icono(src="@/assets/curso/temas/t4/img24.svg" alt="")
-            .col-md-9.text-md-end
+            .col-lg-9.text-md-end
               h5 Sustitución
-              p.mb-0 Implica reemplazar un material, producto o procedimiento peligroso por otro que represente un riesgo menor. Por ejemplo, utilizar un producto de menor toxicidad cuando sea técnicamente viable y esté autorizado para la actividad.
+              p.text-left.mb-0 Implica reemplazar un material, producto o procedimiento peligroso por otro que represente un riesgo menor. Por ejemplo, utilizar un producto de menor toxicidad cuando sea técnicamente viable y esté autorizado para la actividad.
           .row.align-items-center
-            .col-md-9.mb-4.mb-md-0
+            .col-lg-9.mb-4.mb-md-0
               h5 Controles de ingeniería
               p.mb-0 Buscan aislar a las personas del peligro mediante modificaciones o dispositivos de protección. Algunos ejemplos son las guardas de los ejes de transmisión, las estructuras de protección contra vuelcos (ROPS) y las cabinas con sistemas de filtración apropiados.
-            .col-md-3
+            .col-lg-3.d-none.d-lg-block
               figure
                 img.tema4-paso__icono(src="@/assets/curso/temas/t4/img25.svg" alt="")
           .row.align-items-center
-            .col-md-3.mb-4.mb-md-0
+            .col-lg-3.mb-4.mb-md-0.d-none.d-lg-block
               figure
                 img.tema4-paso__icono(src="@/assets/curso/temas/t4/img26.svg" alt="")
-            .col-md-9.text-md-end
+            .col-lg-9.text-md-end
               h5 Controles administrativos
-              p.mb-0 Comprenden procedimientos, instrucciones y medidas de organización del trabajo para reducir la exposición a los peligros. Incluyen las inspecciones preoperacionales, la capacitación, los límites de velocidad dentro de la finca y los procedimientos de bloqueo de energía antes de realizar mantenimiento.
+              p.text-left.mb-0 Comprenden procedimientos, instrucciones y medidas de organización del trabajo para reducir la exposición a los peligros. Incluyen las inspecciones preoperacionales, la capacitación, los límites de velocidad dentro de la finca y los procedimientos de bloqueo de energía antes de realizar mantenimiento.
           .row.align-items-center
-            .col-md-9.mb-4.mb-md-0
+            .col-lg-9.mb-4.mb-md-0
               h5 Elementos de protección personal
               p.mb-0 Protegen al trabajador frente a los riesgos que no se han podido eliminar o controlar suficientemente mediante otras medidas. Según la labor, pueden incluir protectores auditivos, gafas de seguridad, guantes o protección respiratoria.
-            .col-md-3
+            .col-lg-3.d-none.d-lg-block
               figure
                 img.tema4-paso__icono(src="@/assets/curso/temas/t4/img27.svg" alt="")
 
@@ -417,10 +417,10 @@
         .col-lg-7.p-4
           p.mb-4 En las empresas de servicios de mecanización agropecuaria se almacenan y utilizan sustancias como combustibles, lubricantes, anticongelantes, productos para el mantenimiento de maquinaria y, en algunos casos, fertilizantes y plaguicidas. Cuando estos productos se almacenan de manera inadecuada, pueden presentarse derrames, incendios o reacciones peligrosas que afecten a las personas, las instalaciones y el ambiente.
           .row
-            .col-md-auto.mb-3.mb-md-0
+            .col-md-auto.mb-3.mb-md-0.d-none.d-lg-block
               figure.mb-0
                 img.tema4-icono(src="@/assets/curso/temas/t4/img28.svg" alt="")
-            .col.p-0
+            .col.p-lg-0
               p.mb-0 La matriz de compatibilidad de sustancias es una herramienta que permite identificar cuáles productos pueden almacenarse juntos y cuáles requieren separación debido a los riesgos que puede generar su contacto o proximidad. Para elaborarla, se debe consultar la información de las etiquetas y las fichas de datos de seguridad (FDS), que contienen indicaciones sobre los peligros, las incompatibilidades y las condiciones de almacenamiento.
         .col-lg-5
           img.tema4-panel__imagen(src="@/assets/curso/temas/t4/img29.png" alt="")
@@ -469,9 +469,9 @@
 
     .row.justify-content-center.mb-4
       .col-lg-8
-        .tema4-nota.p-3.px-4
+        .tema4-nota.p-2.px-4
           .row.align-items-center
-            .col-md-auto.mb-3.mb-md-0
+            .col-md-auto.mb-3.mb-md-0.d-none.d-lg-block
               figure.mb-0
                 img.tema4-icono(src="@/assets/curso/temas/t4/img30.svg" alt="")
             .col
@@ -493,8 +493,8 @@
     #t_4_7.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 4.7 Protocolo de seguridad
 
-    .row.align-items-center.mb-4
-      .col-lg-5.mb-4.mb-lg-0
+    .row.align-items-center.justify-content-center.mb-4
+      .col-lg-5.col-8.mb-4.mb-lg-0
         figure.mb-0
           img(src="@/assets/curso/temas/t4/img31.png" alt="")
       .col-lg-7
@@ -544,11 +544,11 @@
     .row.justify-content-center.mb-0
       .col-lg-10
         .row.align-items-stretch
-          .col-md-auto.mb-3.mb-md-0
+          .col-md-auto.mb-3.mb-md-0.d-none.d-lg-block
             figure.mb-0
               img.tema4-icono(src="@/assets/curso/temas/t4/img37.svg" alt="")
           .col
-            .tema4-nota.p-2.px-4.h-100.d-flex.align-items-center
+            .tema4-nota.p-4.p-lg-2.px-4.h-100.d-flex.align-items-center
               p.mb-0 Es importante que cada protocolo sea específico para la tarea, esté disponible para las personas que lo deben aplicar y se base en las instrucciones del fabricante y en los riesgos identificados para la operación.
 
 </template>

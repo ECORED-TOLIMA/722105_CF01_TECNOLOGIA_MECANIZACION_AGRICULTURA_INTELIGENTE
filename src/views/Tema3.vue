@@ -19,8 +19,8 @@
     #t_3_1.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 3.1 Características del presupuesto
 
-    .row.align-items-stretch.mb-4
-      .col-lg-5.mb-4.mb-lg-0
+    .row.align-items-center.justify-content-center.mb-4
+      .col-lg-5.col-8.mb-4.mb-lg-0
         figure.h-100.mb-0
           img.tema3-seccion-imagen(src="@/assets/curso/temas/t3/img2.png" alt="")
       .col-lg-7
@@ -34,7 +34,7 @@
           p.mb-0 Entre las principales características del presupuesto se encuentran las siguientes:
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-6.mb-4.mb-lg-0
+      .col-lg-6.mb-4.mb-lg-0.order-2.order-lg-1
         LineaTiempoD.color-acento-botones
           p.mb-0(numero="1" titulo="Planificación") Estima los recursos financieros necesarios para desarrollar las actividades programadas.
           p.mb-0(numero="2" titulo="Cuantificación") Expresa en valores monetarios los ingresos, los costos y los gastos previstos.
@@ -42,12 +42,12 @@
           p.mb-0(numero="4" titulo="Flexibilidad") Permite realizar ajustes cuando cambian las condiciones de operación, los precios de los insumos o la programación de las labores.
           p.mb-0(numero="5" titulo="Control") Facilita la comparación entre los valores presupuestados y los resultados reales para identificar diferencias y tomar decisiones.
           p.mb-0(numero="6" titulo="Coherencia con la operación") Debe considerar la capacidad de la maquinaria, las horas de trabajo previstas, el personal requerido y las condiciones del sistema productivo.
-      .col-lg-4
+      .col-lg-4.col-8.mb-4.mb-lg-0.order-1.order-lg-2
         figure.mb-0
           img.tema3-linea-tiempo-imagen(src="@/assets/curso/temas/t3/img3.png" alt="")
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-1.mb-3.mb-md-0
+      .col-lg-1.mb-3.mb-md-0.d-none.d-lg-block
         figure.mb-0
           img.tema3-icono(src="@/assets/curso/temas/t3/img4.svg" alt="")
       .col-lg-11.col-md
@@ -99,17 +99,17 @@
 
     p.mb-4 El costo de los servicios de mecanización agrícola depende, entre otros factores, de los recursos necesarios para adquirir, conservar y utilizar la maquinaria. Para calcularlo, se distinguen dos grupos: los costos de propiedad, asociados a la posesión del equipo, y los costos de operación, relacionados con su funcionamiento y uso.
 
-    .row.align-items-stretch.mb-4
-      .col-lg-7.mb-4.mb-lg-0
+    .row.align-items-center.justify-content-center.mb-4
+      .col-lg-7.mb-4.mb-lg-0.order-2.order-lg-1
         .cajon.color-secundario.p-4.mb-4
           p.mb-0 Los costos de propiedad se generan durante el periodo en que la empresa mantiene la maquinaria, incluso cuando no está en funcionamiento. Entre ellos se encuentran la depreciación, los intereses o el costo de oportunidad del capital invertido, los seguros, los impuestos aplicables y los gastos de resguardo. La depreciación representa la pérdida de valor del equipo a lo largo de su vida útil.
         p.mb-0 Los costos de operación dependen principalmente del uso de la maquinaria e incluyen el combustible, los lubricantes, los filtros, las reparaciones, el mantenimiento y la mano de obra del operario. Su valor puede variar según el tipo de labor, las condiciones del terreno, la intensidad de uso y el estado de conservación del equipo.
-      .col-lg-5
+      .col-lg-5.col-8.mb-4.mb-lg-0.order-1.order-lg-2
         figure.h-100.mb-0
           img.tema3-costos__imagen(src="@/assets/curso/temas/t3/img8.png" alt="")
 
     .row.align-items-stretch.mb-4
-      .col-auto.d-flex.align-items-center
+      .col-auto.d-flex.align-items-center.d-none.d-lg-block
         figure.mb-0
           img.tema3-costos__icono(src="@/assets/curso/temas/t3/img9.svg" alt="")
       .col.d-flex.align-items-center.tema3-costos__diferencia.p-2.px-3
@@ -257,7 +257,7 @@
           .p-4
             p.mb-4 El presupuesto cumple tres funciones principales en la gestión de los servicios de mecanización agrícola: planear los recursos necesarios, coordinar las actividades de la empresa y controlar los resultados económicos. La planeación permite establecer metas y prever los recursos; la coordinación facilita la articulación de las diferentes áreas, y el control permite comparar los valores presupuestados con los resultados reales e identificar las causas de las diferencias.
             .row.align-items-center
-              .col-auto.mb-3.mb-md-0
+              .col-auto.mb-3.mb-md-0.d-none.d-lg-block
                 figure.mb-0
                   img.tema3-finalidad__icono(src="@/assets/curso/temas/t3/img16.svg" alt="")
               .col-md
@@ -303,7 +303,7 @@
     .row.justify-content-center.align-items-center
       .col-lg-9.col-md.tema3-cierre-presupuesto.p-2.px-3
         p.mb-0 El presupuesto constituye una herramienta fundamental para la planeación económica de los servicios mecanizados. Sin embargo, la viabilidad financiera debe acompañarse del cumplimiento de las condiciones de seguridad para las personas y de protección del entorno.
-      .col-md-auto.mt-3.mt-md-0
+      .col-md-auto.mt-3.mt-md-0.d-none.d-lg-block
         figure.mb-0
           img.tema3-cierre-presupuesto__icono(src="@/assets/curso/temas/t3/img18.svg" alt="")
 

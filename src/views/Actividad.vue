@@ -19,7 +19,7 @@ export default {
       tema: 'Planeación de servicios agrícolas mecanizados',
       titulo: 'Cuestionario',
       introduccion:
-        '<b>Objetivo:</b> verificar la comprensión de los fundamentos de la empresa y los sistemas de producción agropecuarios, la planeación de recursos e inventarios, los presupuestos de los servicios mecanizados y los criterios de seguridad, salud en el trabajo y gestión ambiental aplicables a la mecanización agropecuaria.<br><br>Lea la pregunta de cada ítem y seleccione la respuesta correcta.',
+        '<b>Objetivo:</b> verificar la comprensión de los fundamentos de la empresa y los sistemas de producción agropecuarios, la planeación de recursos e inventarios, los presupuestos de los servicios mecanizados y los criterios de seguridad, salud en el trabajo y gestión ambiental aplicables a la mecanización agropecuaria.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO.',

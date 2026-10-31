@@ -9,7 +9,7 @@
         figure
           img(
             src="@/assets/curso/sintesis.svg"
-            alt="Mapa conceptual de la planeación de servicios agrícolas mecanizados. Comprende empresa y sistemas de producción agropecuarios; planeación de recursos e inventarios; presupuesto en los servicios mecanizados; seguridad y salud en el trabajo; y aspectos ambientales."
+            alt="La síntesis presenta la planeación de servicios agrícolas mecanizados, organizada en cinco temas: empresa y sistemas de producción agropecuarios, planeación de recursos e inventarios, presupuestos, seguridad y salud en el trabajo, y aspectos ambientales de la mecanización."
           )
       .col-auto
         a.anexo.mb-0(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")

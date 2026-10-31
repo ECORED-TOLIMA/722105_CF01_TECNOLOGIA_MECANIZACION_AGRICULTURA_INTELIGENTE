@@ -78,9 +78,9 @@
 
       p.mb-4 Las empresas pueden clasificarse según diferentes criterios. De acuerdo con la actividad económica, pertenecen al sector primario cuando desarrollan actividades agrícolas, pecuarias o forestales; al sector secundario cuando transforman materias primas, y al sector terciario cuando prestan servicios. Por ejemplo, una finca productora de arroz pertenece al sector primario, un molino arrocero al secundario y una empresa contratista de maquinaria agrícola al terciario, aunque sus servicios estén dirigidos a actividades del sector primario.
 
-      .row.align-items-stretch.mb-5
-        .col-lg-4.mb-4.mb-lg-0
-          figure.tema1-imagen-marco.h-100.mb-0
+      .row.justify-content-center.align-items-center.mb-4
+        .col-lg-4.col-8.mb-4.mb-lg-0
+          figure
             img(src="@/assets/curso/temas/t1/img4.png" alt="")
         .col-lg-8
           .cajon.color-secundario.p-4.mb-4
@@ -128,7 +128,9 @@
       p.mb-4 Las empresas suelen agrupar sus procesos según la función que cumplen:
       .row.justify-content-center.align-items-center
         .col-lg-10
-          ImagenInfografica.color-acento-botones.mb-4
+          figure.mb-4.d-block.d-lg-none
+            img(src='@/assets/curso/temas/t1/img5_1.svg', alt='')
+          ImagenInfografica.color-acento-botones.mb-4.d-none.d-lg-.block
             template(v-slot:imagen)
               figure
                 img(src='@/assets/curso/temas/t1/img5.svg', alt='')
@@ -148,7 +150,7 @@
       .row.justify-content-center
         .col-lg-10
           .row.align-items-center
-            .col-md-auto.mb-3.mb-md-0
+            .col-md-auto.mb-3.mb-md-0.d-none.d-lg-block
               figure.mb-0
                 img.tema1-icono(src="@/assets/curso/temas/t1/img6.svg" alt="")
             .col
@@ -296,15 +298,15 @@
 
       p.mb-4 A partir de estas condiciones, la caracterización permite identificar las siguientes necesidades:
 
-      .row.align-items-center.mb-4
-        .col-lg-6.mb-4.mb-lg-0
+      .row.align-items-center.justify-content-center.mb-4
+        .col-lg-6.mb-4.mb-lg-0.order-2.order-lg-1
           LineaTiempoD.color-acento-botones
             p.mb-0(numero="1" titulo="Sistema de producción") Agrícola, orientado a la producción comercial de arroz.
             p.mb-0(numero="2" titulo="Condiciones del suelo") Requieren controlar la humedad para reducir el riesgo de compactación.
             p.mb-0(numero="3" titulo="Programación de las labores") Debe considerar las condiciones climáticas y el calendario de siembra.
             p.mb-0(numero="4" titulo="Labores mecanizables") Preparación del suelo, nivelación, siembra, aplicación de productos y cosecha.
             p.mb-0(numero="5" titulo="Planeación de maquinaria") Requiere estimar las horas de trabajo de tractores y cosechadoras, así como distribuir las actividades dentro de los periodos disponibles.
-        .col-lg-6
+        .col-lg-6.col-8.mb-4.mb-lg-0.order-1.order-lg-2
           figure.mb-0
             img.w-100(src="@/assets/curso/temas/t1/img17.png" alt="")
 
