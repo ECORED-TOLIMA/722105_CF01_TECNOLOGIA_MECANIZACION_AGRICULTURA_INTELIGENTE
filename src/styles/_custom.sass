@@ -820,6 +820,45 @@ figcaption
   font-size: .55rem
 
 // Tema 5
+.tema5-bloque-apertura
+  background-color: $color-adicional-2
+
+  .bloque-texto-g__img
+    background-image: url('../assets/curso/temas/t5/img1.png')
+
+.tema5-bloque-normativa
+  background-color: $color-adicional-2
+
+  .bloque-texto-g__img
+    background-image: url('../assets/curso/temas/t5/img26.png')
+
+.tema5-numerada--salmon
+  border-color: #FFA394
+
+  .tarjeta-numerada__numero
+    background-color: #FFA394
+
+.tema5-reflexion
+  overflow: hidden
+  background-color: #F8EDD3
+
+  &__imagen
+    display: block
+    width: 100%
+    height: 100%
+    object-fit: cover
+
+  &__titulo
+    background-color: $color-acento-contenido
+
+.tema5-enlace
+  background-color: #E8D6D6
+
+  &__icono
+    display: block
+    width: 80px
+    max-width: 100%
+
 .tema5-apertura
   &__imagen
     width: 100%
@@ -830,30 +869,44 @@ figcaption
     background-color: #E1F2FE
 
 .tema5-icono
-  width: 94px
+  width: 84px
   max-width: 100%
 
 .tema5-panel
   overflow: hidden
-  background-color: #98F3F6
+  background-color: #C2F6A0
 
   &__imagen
+    display: block
     width: 100%
     height: 100%
     object-fit: cover
 
+.tema5-nota
+  background-color: #C2F6A0
+
+.tema5-pastilla
+  border-radius: 2rem
+  background-color: #FFC96D
+  text-align: center
+
+.tema5-fondo-pasos
+  margin-inline: -3.5rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+
 .tema5-tabla
   thead
-    background-color: #CCFEED
+    background-color: #FFE8CE
 
   tbody tr:nth-child(odd)
-    background-color: #E8F9F4
+    background-color: #F6F6F6
 
   tbody tr:nth-child(even)
     background-color: $white
 
-  tbody td:first-child
-    
+  table
+    min-width: 700px
 
 // Tema 6
 .tema6-apertura__imagen
