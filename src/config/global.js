@@ -100,7 +100,7 @@ export default {
           },
           {
             numero: '2.6',
-            titulo: 'Manejo, rotación y stock',
+            titulo: 'Manejo, rotación y <em>stock<em>',
             hash: 't_2_6',
           },
         ],

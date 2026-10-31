@@ -77,7 +77,7 @@ figcaption
   @media (max-width: $bp-max-sm)
     margin-inline: -1.5rem !important
 .BGF01
-  //background-image: url("../assets/curso/temas/bg/imgfondo1.png")
+  background-image: url("../assets/curso/temas/bg/imgfondo1.png")
   background-repeat: no-repeat
   background-position: center
   background-size: cover
@@ -124,6 +124,7 @@ figcaption
 
 .fa-chevron-right, .fa-chevron-left
   color:#AF1414 !important
+
 /**************************************************************/
 /***CUSTOM STYLES***/
 /**************************************************************/
@@ -268,6 +269,221 @@ figcaption
   max-width: 100%
   margin: 0 auto
 
+.tema2-imagen-marco
+  overflow: hidden
+  border: .5rem solid $color-primario
+
+  img
+    display: block
+    width: 100%
+    height: 100%
+    object-fit: cover
+.tema2-fondosly
+  background-color: #EEFFDB
+.tema2-nota
+  background-color: $color-primario
+
+.tema2-bloque-planeacion
+  background-color: $color-adicional-2
+
+  .bloque-texto-g__img
+    background-image: url('../assets/curso/temas/t2/img3.png')
+
+.tema2-bloque-proceso
+  background-color: $color-adicional-2
+
+  .bloque-texto-g__img
+    background-image: url('../assets/curso/temas/t2/img5.png')
+
+.tema2-destacado-planeacion
+  background-color: #F8EDD3
+
+.tema2-formula-titulo,
+.tema2-factor-titulo
+  border-radius: 2rem
+  background-color: #FFC96D
+  text-align: center
+
+.tema2-disponibilidad
+  overflow: hidden
+  background-color: #C2F6A0
+
+  &__icono
+    width: 72px
+    max-width: none
+
+  &__imagen
+    display: block
+    width: 100%
+    height: 100%
+    min-height: 20rem
+    object-fit: cover
+
+.tema2-disponibilidad-slider__imagen
+  display: block
+  width: 100%
+  max-height: 24rem
+  object-fit: contain
+  object-position: bottom center
+
+.tema2-inventario-apertura
+  &__destacado
+    background-color: #F8EDD3
+
+  &__imagen
+    overflow: hidden
+    border: .5rem solid #A0E57E
+
+    img
+      display: block
+      width: 100%
+      height: 100%
+      object-fit: cover
+
+.tema2-sistema-inventario
+  &--continuo
+    background-color: #C2F6A0
+
+  &--periodico
+    background-color: #E9D2A3
+
+.tema2-cuantificacion
+  overflow: hidden
+
+  &__imagen
+    display: block
+    width: 100%
+    height: 100%
+    min-height: 19rem
+    object-fit: cover
+
+  &__texto
+    background-color: #F8EDD3
+
+.tema2-ejemplo-inventario
+  overflow: hidden
+  background-color: #F8EDD3
+
+  &__titulo
+    background-color: #FFC057
+
+  &__imagen
+    display: flex
+    align-items: center
+    height: 100%
+    min-height: 19rem
+    background-color: #C2F6A0
+
+    img
+      display: block
+      width: 100%
+      height: auto
+
+.tema2-inventario-destacado
+  background-color: #EEFFDB
+
+.tema2-punto-reorden
+  border: .8rem solid #FFC96D
+  border-radius: 1.5rem
+  background-color: $white
+  text-align: center
+
+.tema2-ejemplo-stock
+  background-color: #F8EDD3
+
+  &__titulo
+    background-color: #FFB642
+
+  &__imagen
+    display: flex
+    align-items: center
+    height: 100%
+    min-height: 15rem
+    background-color: #C2F6A0
+
+    img
+      display: block
+      width: 100%
+      height: auto
+
+.tema2-formula
+  overflow: hidden
+  background-color: #F8EDD3
+
+  &__definiciones
+    background-color: #DDFDCB
+
+  &__operacion
+    min-width: 16rem
+    padding: 1.5rem 2rem
+    border-radius: .75rem
+    background-color: $white
+    box-shadow: 0 .25rem .55rem rgba($black, .18)
+    color: #12263F
+    font-size: 1.5rem
+    font-weight: 700
+    text-align: center
+
+  sub
+    font-size: 60%
+
+.tema2-fraccion
+  display: inline-flex
+  flex-direction: column
+  align-items: stretch
+  min-width: 4.5rem
+  vertical-align: middle
+  line-height: 1.15
+
+  &__numerador
+    padding: 0 .35rem .2rem
+    border-bottom: 2px solid currentColor
+
+  &__denominador
+    padding: .2rem .35rem 0
+
+.tema2-ejemplo
+  background-color: #F8EDD3
+
+  &__titulo
+    background-color: #FFC057
+
+  &__imagen
+    display: flex
+    align-items: center
+    height: 100%
+    min-height: 11rem
+    background-color: #C2F6A0
+
+    img
+      display: block
+      width: 100%
+      height: auto
+
+.tema2-calculo
+  border-radius: .65rem
+  background-color: $white
+  box-shadow: 0 .2rem .45rem rgba($black, .16)
+
+  &__operacion
+    color: #12263F
+    font-size: 1.3rem
+    font-weight: 700
+    text-align: center
+
+  sub
+    font-size: 60%
+
+@media (max-width: $bp-max-sm)
+  .tema2-formula__operacion
+    min-width: 0
+    width: 100%
+    padding: 1.25rem 1rem
+    font-size: 1.25rem
+
+  .tema2-calculo__operacion
+    font-size: 1.1rem
+
 .tema2-destacado-imagen
   overflow: hidden
   background-color: #33DCE1
@@ -285,15 +501,13 @@ figcaption
 
 .tema2-tabla
   thead
-    background-color: #CCFEED
+    background-color: #FFE8CE
 
   tbody tr:nth-child(odd)
-    background-color: #E8F9F4
+    background-color: #F6F6F6
 
   tbody tr:nth-child(even)
     background-color: $white
-
-  tbody td:first-child
     
 
 .tema2-oferta-demanda
@@ -626,3 +840,83 @@ figcaption
 
 .linea-tiempo-d.color-secundario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
   color: #12263F !important
+///////// Card hover x 3 tarjetas--------------------------------------
+.crd_hover_txt
+  position: relative
+  min-height: 19.5625rem
+  padding: 0 !important
+  overflow: hidden !important
+  border-radius: .25rem
+  background-color: #E8D6D6
+  outline: 0
+
+  &:focus-visible
+    box-shadow: 0 0 0 .2rem rgba($color-acento-contenido, .45)
+
+  &:hover,
+  &:focus,
+  &:focus-within
+    .crd_hover_txt--body
+      background-color: #E8D6D6
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+
+      h5.t2
+        color: $black
+        display: block
+        background-image: url('../assets/curso/ico-down.svg')
+        background-size: 7% 100%
+        background-repeat: no-repeat
+        padding-left: 2.0rem
+      h5.t1
+        display: none
+
+      @media (max-width:767px)  
+        p
+          font-size: 0.85em
+        h5.t2
+          background-size: 5.5% 100%
+.crd_hover_txt--body
+  position: absolute
+  padding: 1.5rem
+  bottom: 0
+  width: 100%
+  max-height: 100%
+  overflow-y: auto
+  transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+  transform: translateY(calc( 100% - 3.85rem ))
+  background-color: #E8D6D6
+
+  h5.t2
+    display: none
+
+  h5.t1
+    display: block
+    color: $black
+    cursor: pointer
+    background-image: url('../assets/curso/ico-up.svg')
+    background-size: 7% 100%
+    background-repeat: no-repeat
+    padding-left: 2.0rem
+
+.crd_hover_txt--img,
+.crd_hover_txt--img figure,
+.crd_hover_txt--img img
+  display: block
+  width: 100%
+  height: 100%
+
+.crd_hover_txt--img
+  min-height: 19.5625rem
+
+  img
+    object-fit: cover
+
+@media (min-width:1200px) and (max-width:1400px)  
+  .crd_hover_txt--body
+    p
+      font-size: 0.85em
+
+.crd_hover_txt .crd_hover_txt--body
+  padding: 1.5rem 0.8rem !important
+  width: 100%
