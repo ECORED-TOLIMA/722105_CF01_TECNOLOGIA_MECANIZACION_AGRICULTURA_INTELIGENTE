@@ -374,7 +374,7 @@
             td ¿Está disponible en la finca y cuenta con la certificación requerida?
             td Sí
 
-    p.mb-4 Los datos presentados en la tabla, corresponden a un ejemplo didáctico de verificación de los recursos antes de iniciar una labor de siembra. Su propósito es ilustrar cómo se comprueba la disponibilidad y el estado de la maquinaria, el personal y los insumos requeridos para realizar las actividades mecanizadas.
+    p.mb-0 Los datos presentados en la tabla, corresponden a un ejemplo didáctico de verificación de los recursos antes de iniciar una labor de siembra. Su propósito es ilustrar cómo se comprueba la disponibilidad y el estado de la maquinaria, el personal y los insumos requeridos para realizar las actividades mecanizadas.
 
     Separador
     #t_2_4.titulo-segundo.color-acento-contenido(data-aos="fade-left")
@@ -403,7 +403,7 @@
     .titulo-sexto.color-acento-contenido.mb-3
       h5 Tabla 8.
       span Clases de inventario en una empresa de servicios mecanizados
-    .tabla-a.color-acento-contenido.tema2-tabla.mb-4
+    .tabla-a.color-acento-contenido.tema2-tabla
       table
         thead
           tr
@@ -456,17 +456,16 @@
 
     p.mb-4 La elección del sistema depende de las características de la empresa, la frecuencia de consumo y la importancia de los materiales para la operación. Una empresa pequeña puede controlar sus existencias mediante tarjetas de kárdex o una hoja de cálculo, mientras que una organización con mayor volumen de operaciones puede utilizar un software de gestión.
 
-    .tema2-cuantificacion.mb-4
-      .row.g-0.align-items-stretch
-        .col-lg-5
-          img.tema2-cuantificacion__imagen(src="@/assets/curso/temas/t2/img18.png" alt="")
-        .col-lg-7
-          .tema2-cuantificacion__texto.p-4
-            p.mb-0 La cuantificación del inventario consiste en determinar las cantidades disponibles y su valor económico. Para ello, se registran las entradas, las salidas y los saldos de cada material. La clasificación ABC permite priorizar el control según la importancia económica de las existencias, mientras que el kárdex facilita el registro de los movimientos de cada artículo. Para valorar las existencias, pueden utilizarse métodos de asignación de costos, como el promedio ponderado, de acuerdo con las políticas contables aplicables.
-          .p-4
-            p.mb-0 Los pronósticos permiten estimar las necesidades futuras de materiales a partir de los consumos históricos y de la programación de las labores. Por ejemplo, si un tractor consume en promedio 8 galones de ACPM por hora y se proyectan 300 horas de operación durante la temporada, el consumo estimado será de 2.400 galones.
-
+    
     .row.justify-content-center.mb-4
+      .col-lg-5.col-8.mb-4.mb-lg-0
+        img(src="@/assets/curso/temas/t2/img18.png" alt="")
+      .col-lg-7
+        .cajon.color-secundario.p-4.mb-4
+          p.mb-0 La cuantificación del inventario consiste en determinar las cantidades disponibles y su valor económico. Para ello, se registran las entradas, las salidas y los saldos de cada material. La clasificación ABC permite priorizar el control según la importancia económica de las existencias, mientras que el kárdex facilita el registro de los movimientos de cada artículo. Para valorar las existencias, pueden utilizarse métodos de asignación de costos, como el promedio ponderado, de acuerdo con las políticas contables aplicables.
+        p.mb-0 Los pronósticos permiten estimar las necesidades futuras de materiales a partir de los consumos históricos y de la programación de las labores. Por ejemplo, si un tractor consume en promedio 8 galones de ACPM por hora y se proyectan 300 horas de operación durante la temporada, el consumo estimado será de 2.400 galones.
+
+    .row.justify-content-center
       .col-lg-10
         .tema2-ejemplo-inventario
           .row.g-0.align-items-stretch
@@ -543,7 +542,7 @@
 
     .row.justify-content-center.mb-4
       .col-lg-8
-        .tema2-punto-reorden.p-3
+        .tema2-punto-reorden.p-2
           p.mb-0 #[strong Punto de reorden = (Consumo diario x Tiempo de entrega) + #[i Stock] de seguridad]
 
     .tema2-ejemplo-stock.p-4.mb-4
@@ -561,7 +560,7 @@
               span.mx-2 =
               strong 0,4 filtros/día
         .col-lg-6
-          figure.tema2-ejemplo-stock__imagen.mb-0
+          figure.mb-0
             img(src="@/assets/curso/temas/t2/img26.svg" alt="")
       .row.g-3.mb-3
         .col-lg-6
@@ -590,11 +589,13 @@
 
     p.mb-4 Con los recursos identificados y los inventarios bajo control, el siguiente paso consiste en estimar los ingresos, los gastos y los costos asociados a la operación mediante la elaboración del presupuesto de los servicios mecanizados.
 
-    .titulo-sexto.color-acento-contenido.mb-3
-      h5 Figura 2.
-      span Ruta de planeación de recursos e inventarios
     .row.justify-content-center
-      .col-lg-11
+      .col-lg-10
+        .titulo-sexto.color-acento-contenido.mb-3
+          h5 Figura 2.
+          span Ruta de planeación de recursos e inventarios
+    .row.justify-content-center
+      .col-lg-10
         figure.mb-0
           picture
             source(media="(min-width: 768px)" srcset="@/assets/curso/temas/t2/img28.svg")

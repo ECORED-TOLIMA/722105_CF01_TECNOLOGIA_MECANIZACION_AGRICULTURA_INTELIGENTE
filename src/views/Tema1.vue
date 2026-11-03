@@ -130,7 +130,7 @@
         .col-lg-10
           figure.mb-4.d-block.d-lg-none
             img(src='@/assets/curso/temas/t1/img5_1.svg', alt='')
-          ImagenInfografica.color-acento-botones.mb-4.d-none.d-lg-.block
+          ImagenInfografica.color-acento-botones.mb-4.d-none.d-lg-block
             template(v-slot:imagen)
               figure
                 img(src='@/assets/curso/temas/t1/img5.svg', alt='')
@@ -168,10 +168,12 @@
           .titulo-pastilla.tema1-titulo-pastilla
             p.mb-0 Todo sistema de producción agropecuario comprende los siguientes elementos:
 
-      .titulo-sexto.color-acento-contenido.mb-3.mt-4
-        h5 Figura 1.
-        span Componentes del sistema de producción agropecuario
-      .row.justify-content-center.align-items-center.mb-5
+      .row.justify-content-center.align-items-center.mb-3
+        .col-lg-10
+          .titulo-sexto.color-acento-contenido.mb-3.mt-4
+            h5 Figura 1.
+            span Componentes del sistema de producción agropecuario
+      .row.justify-content-center.align-items-center.mb-4
         .col-lg-10
           figure.mb-4
             picture

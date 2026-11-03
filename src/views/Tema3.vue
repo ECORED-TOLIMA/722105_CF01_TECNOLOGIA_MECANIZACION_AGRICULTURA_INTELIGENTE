@@ -224,7 +224,7 @@
 
     p.mb-4 Los valores utilizados son ilustrativos. En una situación real, deben verificarse los precios, el consumo, el mantenimiento y las condiciones de operación de la maquinaria.
 
-    .row.justify-content-center.mb-4
+    .row.justify-content-center
       .col-lg-10
         .tema3-variacion-costo.p-4
           h5.tema3-variacion-costo__titulo.px-3.py-2.mb-3 Variación del costo horario según el uso anual
