@@ -336,89 +336,89 @@ export default {
   referencias: [
     {
       referencia:
-        'American Society of Agricultural and Biological Engineers. (2011). <em>ASAE D497.7 MAR2011 (R2020): Agricultural machinery management data</em>. ASABE.',
-      link: 'https://webstore.ansi.org/standards/asabe/asaed497mar2011r2020',
+        'American Society of Agricultural and Biological Engineers. (2011). ASAE D497.7 MAR2011 (R2020): Agricultural machinery management data. ASABE.',
+      link: '',
     },
     {
-      referencia: 'Congreso de Colombia. (1993). <em>Ley 99 de 1993</em>.',
+      referencia: 'Congreso de Colombia. (1993). Ley 99 de 1993.',
       link: 'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=297',
     },
     {
-      referencia: 'Congreso de Colombia. (2008). <em>Ley 1252 de 2008</em>.',
+      referencia: 'Congreso de Colombia. (2008). Ley 1252 de 2008.',
       link: 'https://www1.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=33965',
     },
     {
-      referencia: 'Congreso de Colombia. (2012). <em>Ley 1562 de 2012</em>.',
+      referencia: 'Congreso de Colombia. (2012). Ley 1562 de 2012.',
       link: 'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=48365',
     },
     {
       referencia:
-        'Consejo Colombiano de Seguridad. (2021). <em>Conozca la Resolución 773 de 2021 de aplicación del Sistema Globalmente Armonizado (SGA) en los lugares de trabajo</em>.',
+        'Consejo Colombiano de Seguridad. (2021). Conozca la Resolución 773 de 2021 de aplicación del Sistema Globalmente Armonizado (SGA) en los lugares de trabajo.',
       link: 'https://ccs.org.co/portfolio/conozca-la-resolucion-773-de-2021-de-aplicacion-del-sistema-globalmente-armonizado-sga-en-los-lugares-de-trabajo/',
     },
     {
       referencia:
-        'Heizer, J., y Render, B. (2014). <em>Principios de administración de operaciones</em> (9.ª ed.). Pearson Educación.',
+        'Heizer, J., y Render, B. (2014). Principios de administración de operaciones (9.ª ed.). Pearson Educación.',
       link: '',
     },
     {
       referencia:
-        'International Organization for Standardization. (2015). <em>Quality management systems - Requirements</em> (ISO Standard No. 9001:2015).',
+        'International Organization for Standardization. (2015). Quality management systems - Requirements (ISO Standard No. 9001:2015).',
       link: '',
     },
     {
       referencia:
-        'Ministerio de Ambiente y Desarrollo Sostenible. (2015). <em>Resolución 0631 de 2015</em>.',
+        'Ministerio de Ambiente y Desarrollo Sostenible. (2015). Resolución 0631 de 2015.',
       link: 'https://www.minambiente.gov.co/wp-content/uploads/2021/11/resolucion-631-de-2015.pdf',
     },
     {
       referencia:
-        'Ministerio de Ambiente y Desarrollo Sostenible. (s. f.). <em>Guías ambientales de buenas y mejores prácticas</em>.',
+        'Ministerio de Ambiente y Desarrollo Sostenible. (s. f.). Guías ambientales de buenas y mejores prácticas.',
       link: 'https://bpm.minambiente.gov.co/index.php/asuntos-ambientales-sectorial-y-urbana/sostenibilidad-sectores-productivos/guias-ambientales-buenas-y-mejores-practicas',
     },
     {
       referencia:
-        'Ministerio del Trabajo. (2019). <em>Resolución 0312 de 2019</em>.',
+        'Ministerio del Trabajo. (2019). Resolución 0312 de 2019.',
       link: 'https://www.fondoriesgoslaborales.gov.co/wp-content/uploads/2018/09/RESOLUCION-0312-DEL-2019.pdf',
     },
     {
       referencia:
-        'Organización de las Naciones Unidas para la Alimentación y la Agricultura. (s. f.). <em>Mecanización agrícola sostenible</em>. FAO.',
+        'Organización de las Naciones Unidas para la Alimentación y la Agricultura. (s. f.). Mecanización agrícola sostenible. FAO.',
       link: 'https://www.fao.org/sustainable-agricultural-mechanization/en/',
     },
     {
       referencia:
-        'Organización de las Naciones Unidas para la Alimentación y la Agricultura (FAO). (2024). <em>Promoting sustainable agricultural mechanization for smallholder farmers: Five steps to develop effective business models</em>.',
+        'Organización de las Naciones Unidas para la Alimentación y la Agricultura (FAO). (2024). Promoting sustainable agricultural mechanization for smallholder farmers: Five steps to develop effective business models.',
       link: 'https://openknowledge.fao.org/handle/20.500.14283/cd2358en',
     },
     {
       referencia:
-        'Organización de las Naciones Unidas para la Alimentación y la Agricultura (FAO). (s. f.). <em>Sustainable agricultural mechanization</em>.',
+        'Organización de las Naciones Unidas para la Alimentación y la Agricultura (FAO). (s. f.). Sustainable agricultural mechanization.',
       link: '',
     },
     {
       referencia:
-        'Presidencia de la República de Colombia. (2015). <em>Decreto 1072 de 2015</em>.',
+        'Presidencia de la República de Colombia. (2015). Decreto 1072 de 2015.',
       link: 'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=72173',
     },
     {
       referencia:
-        'Presidencia de la República de Colombia. (2018). <em>Decreto 1496 de 2018</em>.',
+        'Presidencia de la República de Colombia. (2018). Decreto 1496 de 2018.',
       link: 'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=87910',
     },
     {
       referencia:
-        'República de Colombia. (2015). <em>Decreto 1076 de 2015</em>.',
+        'República de Colombia. (2015). Decreto 1076 de 2015.',
       link: 'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=78153',
     },
     {
       referencia:
-        'Servicio Nacional de Aprendizaje (SENA). (1968). <em>Normas de seguridad en el uso de tractores</em>.',
+        'Servicio Nacional de Aprendizaje (SENA). (1968). Normas de seguridad en el uso de tractores.',
       link: '',
     },
     {
       referencia:
-        'Servicio Nacional de Aprendizaje (SENA). (1984). <em>Reglas para labores agropecuarias</em>.',
+        'Servicio Nacional de Aprendizaje (SENA). (1984). Reglas para labores agropecuarias.',
       link: '',
     },
   ],

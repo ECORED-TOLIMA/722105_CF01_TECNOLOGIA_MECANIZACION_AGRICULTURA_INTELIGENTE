@@ -210,7 +210,7 @@
         figure.mb-0
           img(src="@/assets/curso/temas/t5/img18.png" alt="")
 
-    .cajon.color-primario.p-4.mb-4
+    .tema2-inventario-destacado.p-3.mb-4
       p.mb-0 También se presentan riesgos de contaminación del suelo y del agua por la disposición inadecuada de aceites usados, filtros, combustibles y envases de productos agroquímicos. Asimismo, la aplicación de plaguicidas en condiciones de viento o con equipos mal calibrados puede producir deriva, es decir, el desplazamiento del producto hacia áreas distintas de las previstas. La intervención de franjas de protección de ríos y quebradas puede afectar los ecosistemas y facilitar el ingreso de contaminantes a las fuentes hídricas.
 
     .row.justify-content-center.align-items-center

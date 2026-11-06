@@ -22,19 +22,21 @@
     transform: translateY(0px)
 .banner-principal
   .container.tarjeta
-    background-image: url("../assets/curso/portada/fondo-banner-principal.png")
-    background-size: cover
+    // !important: el componente BannerPrincipal aplica el fondo como estilo en línea (global.js)
+    background-image: url("../assets/curso/portada/fondo-banner-principal.png") !important
+    background-size: 100% 100% !important
     background-position: center
-    background-repeat: no-repeat
-    min-height: auto
-    @media (max-width: $bp-max-md)
-      background-size: contain
-      background-image: url("../assets/curso/portada/fondo-banner-principal-md.png")
-    @media (max-width: $bp-max-xs)
-      background-size: cover
-      background-image: url("../assets/curso/portada/fondo-banner-principal-sm.png")
-      min-height: 550px
-      background-color: #69D7E5
+    min-height: 520px
+    // .02px menos para no solaparse con el breakpoint lg de Bootstrap (992px)
+    @media (max-width: #{$bp-max-md - .02px})
+      background-image: url("../assets/curso/portada/fondo-banner-principal-md.png") !important
+      overflow: visible !important
+      background-size: 100% 100% !important
+    @media (max-width: #{$bp-max-xs - .02px})
+      background-image: url("../assets/curso/portada/fondo-banner-principal-sm.png") !important
+      overflow: visible !important
+      background-size: 100% 100% !important
+
 .banner-interno__fondo
   background-image: url("../assets/curso/portada/imgbaner.png") !important
   background-size: cover
@@ -671,7 +673,8 @@ figcaption
 
 .bg00
   background-color:#ffffff
-
+.bg01
+  background-color: #EEFFDB
 
 /**************************************************************/
 /*Media Queries*/
