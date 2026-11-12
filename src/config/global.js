@@ -443,9 +443,9 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Cindy Carolina Gámez Ávila',
-          cargo: 'Instructora técnica',
-          centro: 'Centro Agropecuario La Granja - Regional Tolima',
+          nombre: 'Diego Fabián Chavarriaga Valencia',
+          cargo: 'Instructor técnico',
+          centro: 'Centro Agropecuario de Buga - Regional Valle',
         },
         {
           nombre: 'Viviana Herrera Quiñonez',
