@@ -84,7 +84,7 @@
             img(src="@/assets/curso/temas/t1/img4.png" alt="")
         .col-lg-8
           .cajon.color-secundario.p-4.mb-4
-            p.mb-0 Según su tamaño, las empresas se clasifican en micro, pequeñas, medianas y grandes. En Colombia, esta clasificación se determina principalmente a partir de los ingresos por actividades ordinarias anuales, de acuerdo con el sector económico al que pertenecen. Según el origen del capital, pueden ser privadas, públicas o mixtas. Por su forma jurídica, pueden constituirse como personas naturales comerciantes, sociedades por acciones simplificadas (S. A. S.), sociedades limitadas, cooperativas u otras formas de organización reconocidas legalmente.
+            p.mb-0 Según su tamaño, las empresas se clasifican en micro, pequeñas, medianas y grandes. En Colombia, esta clasificación se determina principalmente a partir de los ingresos por actividades ordinarias anuales, de acuerdo con el sector económico al que pertenecen. Según el origen del capital, pueden ser privadas, públicas o mixtas. Por su forma jurídica, pueden constituirse como personas naturales comerciantes, sociedades por acciones simplificadas (S. A. S.), sociedades limitadas, cooperativas u otras formas de organización reconocidas legalmente. 
           p.mb-0 La finalidad de una empresa no se limita a la obtención de utilidades. También puede contribuir a la generación de empleo, el abastecimiento de alimentos y materias primas, la incorporación de tecnología y el desarrollo territorial. En la mecanización agropecuaria, las empresas que prestan servicios con maquinaria facilitan el acceso de pequeños y medianos productores a equipos que, por sus costos de adquisición y mantenimiento, podrían resultar difíciles de obtener individualmente. La Organización de las Naciones Unidas para la Alimentación y la Agricultura (FAO) destaca la importancia de fortalecer los servicios de mecanización para facilitar el acceso de los pequeños productores a estas tecnologías (FAO, s. f.).
 
       .titulo-sexto.color-acento-contenido.mb-3
@@ -164,8 +164,8 @@
       p.mb-4 Un sistema de producción agropecuario es la forma en que una unidad productiva combina recursos como la tierra, el agua, los cultivos o animales, el trabajo, el capital, la tecnología y el conocimiento para obtener productos agrícolas o pecuarios. Se denomina sistema porque sus componentes están interrelacionados: un cambio en uno de ellos, como la incorporación de una sembradora de precisión, puede modificar los requerimientos de mano de obra, los costos, los tiempos de trabajo y las condiciones de manejo del suelo.
 
       .row.justify-content-center
-        .col-lg-8
-          .titulo-pastilla.tema1-titulo-pastilla
+        .col-lg-8.col-12.col-md-12.col-sm-12
+          .tema1-titulo-pastilla.p-3
             p.mb-0 Todo sistema de producción agropecuario comprende los siguientes elementos:
 
       .row.justify-content-center.align-items-center.mb-3

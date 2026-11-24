@@ -244,7 +244,7 @@
                     | 800 horas al año: costo total aproximado de $121.588 por hora.
                   li.mb-0
                     i.fas.fa-seedling
-                    | horas al año: costo total aproximado de $111.525 por hora.
+                    | 1.000 horas al año: costo total aproximado de $111.525 por hora.
           p.mb-0 La comparación permite identificar que, al aumentar las horas de uso anual, disminuye el costo fijo distribuido por hora. Sin embargo, los costos variables pueden cambiar según las condiciones de trabajo, el consumo de combustible y las necesidades de mantenimiento.
 
     Separador

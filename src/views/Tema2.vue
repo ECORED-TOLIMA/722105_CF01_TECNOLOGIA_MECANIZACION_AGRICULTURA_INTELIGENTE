@@ -374,7 +374,7 @@
             td ¿Está disponible en la finca y cuenta con la certificación requerida?
             td Sí
 
-    p.mb-0 Los datos presentados en la tabla, corresponden a un ejemplo didáctico de verificación de los recursos antes de iniciar una labor de siembra. Su propósito es ilustrar cómo se comprueba la disponibilidad y el estado de la maquinaria, el personal y los insumos requeridos para realizar las actividades mecanizadas.
+    p.mb-0 Los datos presentados en la tabla corresponden a un ejemplo didáctico de verificación de los recursos antes de iniciar una labor de siembra. Su propósito es ilustrar cómo se comprueba la disponibilidad y el estado de la maquinaria, el personal y los insumos requeridos para realizar las actividades mecanizadas.
 
     Separador
     #t_2_4.titulo-segundo.color-acento-contenido(data-aos="fade-left")

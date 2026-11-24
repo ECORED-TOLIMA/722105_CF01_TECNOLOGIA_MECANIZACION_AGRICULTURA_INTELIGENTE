@@ -108,15 +108,28 @@ figcaption
 
 .tema1-titulo-pastilla
   width: 100%
+  display: flex
+  align-items: center
+  flex-wrap: nowrap
+  flex-direction: row
   justify-content: center
-  padding-inline: 1.5rem
   background-color: #FFC96D
+  border-radius: 25px
+  
 
   span
     font-size: 1rem
     font-weight: 400
     line-height: 1.5
     text-align: center
+
+  @media (max-width: $bp-max-md)
+    height: 40px
+    padding: 8px 26px 8px 8px
+
+  @media (max-width: $bp-max-sm)  
+    height: 60px
+    padding: 8px 26px 8px 8px
 
 .tema1-apertura
   &__imagen

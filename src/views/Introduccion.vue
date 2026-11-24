@@ -27,7 +27,7 @@
       .col-12
         figure
           .video
-            iframe(width="1331" height="749" src="https://www.youtube.com/embed/Ojw7hyIGXq4" title="Structuring, validating, and improving mechanized agricultural services" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+            iframe(width="1337" height="752" src="https://www.youtube.com/embed/v86tPeHx0TQ" title="Planeación y mejora de servicios agrícolas mecanizados" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
 
 </template>
 
